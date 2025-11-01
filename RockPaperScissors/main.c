@@ -13,6 +13,9 @@ char* winner(char* p1, char* p2) {
 	if (strcmp(p1, "Paper") == 0 && strcmp(p2, "Rock") == 0) {
 		return "Player1";
 	}
+	if (strcmp(p1, "Scissors") == 0 && strcmp(p2, "Rock") == 0) {
+		return "Player2";
+	}
 	return "";
 }
 
