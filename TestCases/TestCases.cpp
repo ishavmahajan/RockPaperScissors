@@ -27,5 +27,11 @@ namespace TestCases
 			char* actualResult = winner("Scissors", "Scissors");
 			Assert::AreEqual(expectedResult, actualResult);
 		}
+		TEST_METHOD(Test4_Player1Winner_RockScissors)
+		{
+			char* expectedResult = "Player1";
+			char* actualResult = winner("Rock", "Scissors");
+			Assert::AreEqual(expectedResult, actualResult);
+		}
 	};
 }
