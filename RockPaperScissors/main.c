@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 char* winner(char* p1, char* p2) {
 	if ((strcmp(p1, "Rock") != 0 && strcmp(p1, "Paper") != 0 && strcmp(p1, "Scissors") != 0) ||
