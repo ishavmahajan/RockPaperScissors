@@ -7,6 +7,9 @@ char* winner(char* p1, char* p2) {
 	if (strcmp(p1, "Rock") == 0 && strcmp(p2, "Scissors") == 0) {
 		return "Player1";
 	}
+	if (strcmp(p1, "Scissors") == 0 && strcmp(p2, "Paper") == 0) {
+		return "Player1";
+	}
 	return "";
 }
 
